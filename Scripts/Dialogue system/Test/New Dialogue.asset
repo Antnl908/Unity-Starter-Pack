@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8215576170381344415
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf448f90b2c8f304487d4d757bce2a02, type: 3}
+  m_Name: Choice 2
+  m_EditorClassIdentifier: 
+  dialogueContainer: {fileID: 0}
+  parentDialogue: {fileID: 3194382294172719138}
+  _dialogues: []
+  title: Choice 2
+  text: 
+--- !u!114 &-4908040670440163575
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf448f90b2c8f304487d4d757bce2a02, type: 3}
+  m_Name: Choice 3
+  m_EditorClassIdentifier: 
+  dialogueContainer: {fileID: 0}
+  parentDialogue: {fileID: 3194382294172719138}
+  _dialogues:
+  - {fileID: 888170447257249467}
+  title: Choice 3
+  text: You picked the 3rd choice
+--- !u!114 &-3358093124233443539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf448f90b2c8f304487d4d757bce2a02, type: 3}
+  m_Name: 2nd
+  m_EditorClassIdentifier: 
+  dialogueContainer: {fileID: 0}
+  parentDialogue: {fileID: 11400000}
+  _dialogues:
+  - {fileID: -3273955186719742511}
+  title: 2nd
+  text: this is the second dialogue
+--- !u!114 &-3273955186719742511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf448f90b2c8f304487d4d757bce2a02, type: 3}
+  m_Name: 3rd
+  m_EditorClassIdentifier: 
+  dialogueContainer: {fileID: 0}
+  parentDialogue: {fileID: -3358093124233443539}
+  _dialogues:
+  - {fileID: 3194382294172719138}
+  title: 3rd
+  text: this is the third dialogue
+--- !u!114 &-2727918815571403994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf448f90b2c8f304487d4d757bce2a02, type: 3}
+  m_Name: Choice 1
+  m_EditorClassIdentifier: 
+  dialogueContainer: {fileID: 0}
+  parentDialogue: {fileID: 3194382294172719138}
+  _dialogues: []
+  title: Choice 1
+  text: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf448f90b2c8f304487d4d757bce2a02, type: 3}
+  m_Name: New Dialogue
+  m_EditorClassIdentifier: 
+  dialogueContainer: {fileID: 0}
+  parentDialogue: {fileID: 0}
+  _dialogues:
+  - {fileID: -3358093124233443539}
+  - {fileID: 4826915206246487571}
+  - {fileID: 71155479799280171}
+  title: first
+  text: this is the first dialogue
+--- !u!114 &71155479799280171
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf448f90b2c8f304487d4d757bce2a02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueContainer: {fileID: 0}
+  parentDialogue: {fileID: 11400000}
+  _dialogues: []
+  title: 
+  text: 
+--- !u!114 &888170447257249467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf448f90b2c8f304487d4d757bce2a02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueContainer: {fileID: 0}
+  parentDialogue: {fileID: -4908040670440163575}
+  _dialogues: []
+  title: 
+  text: This is the final one
+--- !u!114 &3194382294172719138
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf448f90b2c8f304487d4d757bce2a02, type: 3}
+  m_Name: 4th
+  m_EditorClassIdentifier: 
+  dialogueContainer: {fileID: 0}
+  parentDialogue: {fileID: -3273955186719742511}
+  _dialogues:
+  - {fileID: -2727918815571403994}
+  - {fileID: -8215576170381344415}
+  - {fileID: -4908040670440163575}
+  title: 4th
+  text: here's the last one
+--- !u!114 &4826915206246487571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf448f90b2c8f304487d4d757bce2a02, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueContainer: {fileID: 0}
+  parentDialogue: {fileID: 11400000}
+  _dialogues: []
+  title: 
+  text: 
